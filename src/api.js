@@ -12,6 +12,8 @@ const getApiId =  async (city) =>{
   })
 }
 
+
+
 const getApiCityWeather = async (cityId) =>{
     return await axios.get(`${BASEURL}/currentconditions/v1/${cityId}?apikey=${apikey}`)
     .catch((err) =>{
