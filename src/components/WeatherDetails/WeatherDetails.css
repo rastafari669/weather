@@ -1,0 +1,31 @@
+.container-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-info{
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+h1{
+    margin-top: 50px;
+}
+h4{
+    font-weight: bold;
+}
+
+.tempText{
+    color: green;
+}
+
+.card-info:hover{
+    box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% /0.38);
+}
+
+.main{
+    width: 300px;
+}

@@ -1,0 +1,19 @@
+.search-outer{
+    
+    padding: 50px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  
+}
+
+.searchbar{
+    padding: 5px 10px;
+  font-style: innherit;
+  width: 100%;
+}
+
+p{
+    color: red;
+    font-weight: bold;
+}
