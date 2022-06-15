@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apikey = "cJUgjltovAoW7iGdjROMvmbQTlCGavUX";
-const BASEURL = "http://dataservice.accuweather.com";
+const BASEURL = "https://dataservice.accuweather.com";
 
 const getApiId = async (city) => {
   return await axios.get(
