@@ -18,8 +18,8 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="favorites" element={<Fav />} />
+            <Route path="/weather" element={<Main />} />
+            <Route path="/favorites" element={<Fav />} />
           </Routes>
         </div>
       </Router>

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <Link className="logo" to="/">
+        <Link className="logo" to="/weather">
           <a className="navbar-brand">
             <img
               style={{
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
             {/* <Switch /> */}
-            <Link className="link" to="/">
+            <Link className="link" to="/weather">
               {" "}
               <li className="nav-link" aria-current="page">
                 Home
